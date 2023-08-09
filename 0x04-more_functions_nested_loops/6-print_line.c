@@ -1,17 +1,13 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * straight - draws a straight line of a specified length
- * @n: the length of the line to draw
- *
+ *print_line - a program that prints a straight line
+ *@n: first parameter
  * Return: 0
  */
-void straight(int n)
+void print_line(int n)
 {
-	int i;
-
-	for (int i = 0; i < n; i++)
+	for (n = '0'; n <= '9'; n++)
 	{
 		_putchar('_');
 	}
