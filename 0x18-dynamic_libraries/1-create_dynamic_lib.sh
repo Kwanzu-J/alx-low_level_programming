@@ -1,4 +1,3 @@
 #!/bin/bash
-gcc -c -fPIC *.c
 rm 2-strncpy.o
-gcc -shared -o liball.so *.o
+gcc -Wall -Werror -Wextra -pedantic -shared -fPIC -o liball.so *.c
