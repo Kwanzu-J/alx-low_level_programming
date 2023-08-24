@@ -1,4 +1,4 @@
 #!/bin/bash
 gcc -c -fPIC *.c
-ar -rc liball.a *.o
-ranlib liball.a
+rm 2-strncpy.o
+gcc -shared -o liball.so *.o
